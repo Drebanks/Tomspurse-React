@@ -1,0 +1,64 @@
+.keycontainer{
+    background-color: var(--blue-background);
+    display: flex;
+    padding: 40px 30px 60px 80px;
+    
+}
+.keycir{
+    position: absolute;
+    
+   
+
+    
+}
+.keycir >img:nth-of-type(1){
+    margin-top: 35px;
+}
+.keypad {
+    flex-basis: 40%;
+}
+/* .keycir > img{
+    width: 50%;
+} */
+.keylock{
+    position: relative;
+    left: 80px;
+    top: 80px;
+}
+.keycontent{
+    margin: 80px;
+    text-align: center;
+    width: 30%;
+    line-height: 40px;
+    /* flex-grow: 1; */
+}
+.keycontent h2{
+    color: white;
+     font-weight: 600;
+    font-size: 39px;
+    line-height: 40px;
+    text-align: center;
+}
+.keycontent >p{
+    color: white;
+    font-size: 22px;
+}
+
+.keycontent h5{
+    color: white;
+    font-size: 16px;
+line-height: 13px
+}
+
+.keycontent a{
+    color:mediumaquamarine;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 937px){
+    .keycontainer{
+        
+        padding: 40px 30px 20px 80px;
+        
+    }
+}

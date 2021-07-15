@@ -1,0 +1,115 @@
+.seecontainer{
+    background-color: white;
+    padding: 20px 50px 40px 50px;
+}
+.seecontent{
+    align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.seecontent h3{
+    font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+
+
+
+color: #022B69;
+}
+.seeimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.boxcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boximg{
+    background-image: url(../../assets/firstrec.png),
+    url(../../assets/secondrec.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    background-position: left, right;
+    width: 268.24px;
+height: 315.48px;
+
+}
+
+.boxone{
+    margin-top: 47px;
+    width: 58%;
+    margin-left: 82px;
+}
+.boxone h5{
+    text-align: center;
+}
+.boxone >img:nth-of-type(1){
+    margin-left: 50px;
+}
+
+.boxone >img:nth-of-type(2){
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+   
+}
+.boxone2 >img:nth-of-type(2){
+    margin-left: 70px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+   
+}
+.boxone2 h5{
+    text-align: center;
+}
+.boxone2 >img:nth-of-type(1){
+    margin-left: 50px;
+}
+.boxone2{
+    margin-top: 24px;
+    width: 57%;
+    margin-left: 67px;
+}
+
+
+.boximg2{
+    background-image: url(../../assets/secondfir.svg),
+    url(../../assets/secsec.svg);
+    background-repeat: no-repeat, no-repeat;
+  background-size: cover, contain;
+  background-position: right, top;
+  width: 280.15px;
+  height: 260.02px;
+}
+
+.boximg3{
+    background-image: url(../../assets/thirdfir.svg),
+    url(../../assets/thirdlast.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+    background-position: right, right;
+    width: 268.24px;
+    height: 315.48px;
+}
+
+.boxone3 >img:nth-of-type(2){
+    margin-left: 82px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+   
+}
+.boxone3 h5{
+    text-align: center;
+}
+.boxone3 >img:nth-of-type(1){
+    margin-left: 67px;
+}
+.boxone3{
+    margin-top: 37px;
+    width: 72%;
+    margin-left: 36px;
+}

@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    /* position: fixed; */
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+}
+
+.header_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem
+}
+
+
+.getstarted{
+    background-color: var(--light-blue);
+    color: var(--white);
+}

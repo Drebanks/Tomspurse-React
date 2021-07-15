@@ -1,0 +1,65 @@
+.whatcontainer{
+    background-color: lightskyblue;
+    padding: 20px 50px 50px 50px;
+}
+.whatext h1{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    
+    color: #022B69;
+}
+.threeboxes{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.one{
+    background-color: white;
+    padding: 20px;
+}
+.oneimg{
+   align-content: flex-end;
+}
+.oneimg  > img:nth-of-type(2){
+    position: relative;
+    top: 5px;
+    right: 71px;
+}
+.onetxt h2{
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+width: 150px;
+height: 86px;
+color: #022B69;
+}
+.onetxt p{
+    font-size: 14px;
+line-height: 17px;
+text-align: justify;
+color: #5A5773;
+width: 234px;
+height: 85px;
+}
+.secondbox{
+    background-color: white;
+    padding: 20px;
+}
+.twoimg  > img:nth-of-type(2){
+    position: relative;
+    top: -18px;
+    right: 74px;
+}
+.thirdbox{
+    background-color: white;
+    padding: 20px;
+}
+.threeimg  > img:nth-of-type(2){
+    position: relative;
+    top: -14px;
+    right: 69px;
+}

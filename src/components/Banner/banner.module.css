@@ -1,0 +1,93 @@
+.banner{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: var(--blue-background);
+    /* font-family: var(--inter-font); */
+    color: white;
+}
+
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: auto;
+    width: 90%;
+    padding: 0 50px 0 10px;
+}
+.content{
+    width: 50%;
+    /* margin-right: 300px; */
+}
+
+.content h1{
+    /* display: flex; */
+    color:white;  
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px; 
+     
+    
+}
+.content p{
+    color:white;  
+    font-size: 16px;
+line-height: 19px;
+}
+
+.reg {
+    background-color: white;
+    color: blue;
+}
+.hand{
+    position: relative;
+    top: 41px;
+    right:30px;
+    /* width: 30%; */
+}
+.hand > img{
+    width: 85%;
+}
+
+.getstarted{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: white;
+    color: blue;
+    margin-top: 40px;
+
+}
+@media screen and (max-width: 1088px){
+    .hand > img{
+        width: 85%;
+    }
+
+    .hand{
+        position: relative;
+        top: 48px;
+        right:-58px;
+    }
+
+
+
+
+
+ 
+  
+}
+
+@media screen and (max-width: 937px) {
+    .hand{
+        position: relative;
+        top: 81px;
+        right:-94px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .hand{
+        display: none;
+    }
+}
