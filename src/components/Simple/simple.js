@@ -1,5 +1,6 @@
 import classes from "./simple.module.css";
 import Plus from "../../assets/plus.svg";
+import { Link } from "react-router-dom";
 
 
 const Simple = () => {
@@ -13,7 +14,7 @@ const Simple = () => {
                     <h2>Basic</h2>
                     <h3>7% for 2month</h3>
                     <p>Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
-                    <button className={classes.bget}>Get Started</button>
+                <Link to="./signup"><button className={classes.bget}>Get Started</button></Link>
                     <div className={classes.end}>
                         <p className={classes.lint}>What’s Included</p>
                         <img src={Plus}  className={classes.lines} alt="plus"/>
@@ -23,7 +24,7 @@ const Simple = () => {
                     <h2>Plus</h2>
                     <h3>22% for 6month</h3>
                     <p>Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
-                    <button className={classes.bget}>Get Started</button>
+                    <Link to="./signup"><button className={classes.bget}>Get Started</button></Link>
                     <div className={classes.end}>
                         <p className={classes.lint}>What’s Included</p>
                         <img src={Plus}  className={classes.lines} alt="plus"/>

@@ -86,8 +86,9 @@
     /* margin-right: 20px; */
     width: 90%;
 }
-.first ul {
+.first ul a{
     display:block;
+    color: #1AD5FE;
 }
 .first p{
     font-weight: bold;
@@ -112,8 +113,9 @@ margin-bottom: 20px;
 color: #FFFFFF;
 }
 
-.second ul{
+.second ul a{
     display:block;
+    color: #1AD5FE;
 }
 .second ul li{
     list-style: none;
@@ -136,6 +138,10 @@ color: #FFFFFF;
 
 .third ul{
     display: block;
+    /* color: #1AD5FE; */
+}
+.third ul a {
+    color: #1AD5FE;
 }
 .third ul li{
     list-style: none;
@@ -156,8 +162,9 @@ margin-bottom: 20px;
 color: #FFFFFF;
 }
 
-.fourth ul{
+.fourth ul a{
     display: block;
+    color: #1AD5FE;
    
 }
 

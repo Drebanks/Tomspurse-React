@@ -24,6 +24,10 @@
     display: flex;
     gap: 3rem;
 }
+.lin a{
+    color: #0000FF;
+
+}
 
 
 @media screen and (max-width: 900px){

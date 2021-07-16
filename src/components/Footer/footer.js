@@ -31,17 +31,17 @@ const Footer = () => {
                     <div className={classes.first}>
                         <p>Company</p>
                         <ul >
-                            <li><a href="./">Home</a></li>
-                            <li><a href="./aboutus">About Us</a></li>
-                            <li><a href="#15">Investment Plan</a></li>
-                            <li><a href="#16">Mail Us</a></li>
+                            <li><Link to="./">Home</Link></li>
+                            <li><Link to="./aboutus">About Us</Link></li>
+                            <li><Link to="#">Investment Plan</Link></li>
+                            <li><a href="#">Mail Us</a></li>
                         </ul>
                     </div>
                     <div className={classes.second}>
                         <p>Product.</p>
                         <ul >
-                            <li><a href="#17">Savings Plan</a></li>
-                            <li><a href="#18">Value Plan</a></li>
+                            <li><a href="#">Savings Plan</a></li>
+                            <li><a href="#">Value Plan</a></li>
                         </ul>
                     </div>
                     <div className={classes.third}>

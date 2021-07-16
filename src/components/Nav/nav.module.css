@@ -15,6 +15,10 @@
   gap: 3rem;
   align-items: center;
 }
+.nav ul a{
+  color: #0000FF;
+
+}
 
 .nav > img{
   display: none;
