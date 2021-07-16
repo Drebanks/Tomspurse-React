@@ -30,7 +30,8 @@
     text-align: center;
     width: 30%;
     line-height: 40px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+    margin-left: 400px;
 }
 .keycontent h2{
     color: white;
