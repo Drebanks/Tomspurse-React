@@ -47,9 +47,9 @@ line-height: 19px;
     right:30px;
     /* width: 30%; */
 }
-.hand > img{
+/* .hand > img{
     width: 85%;
-}
+} */
 
 .getstarted{
     padding: 15px 30px;
@@ -87,7 +87,18 @@ line-height: 19px;
 }
 
 @media screen and (max-width: 710px){
-    .hand{
-        display: none;
+    .banner{
+        height: 100vh;
     }
+    .container{
+        flex-direction: column;
+    }
+    .hand{
+        position: relative;
+        top: -81px;
+        right:-94px;
+    }
+}
+@media screen and (max-width: 710px){
+
 }

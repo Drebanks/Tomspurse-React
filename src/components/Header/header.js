@@ -11,11 +11,17 @@ const Header = () => {
             <div className={classes.header_container}>
                 <img src={Logo} alt="Logo" />
                 <Navigation />
-                <Link to="/login">Login</Link>
-                <Button href="/signup" extra={classes.getstarted}>
-                {" "}
-                Get Started
-                </Button>
+                <div className={classes.togg}>
+                    <div className={classes.lin}>
+                    <Link to="/login">Login</Link>
+                    </div>
+                    <div className={classes.let}>
+                    <Button href="/signup" extra={classes.getstarted}>
+                    {" "}
+                    Get Started
+                    </Button>
+                    </div>
+                </div>
             </div>
         </header>
     );

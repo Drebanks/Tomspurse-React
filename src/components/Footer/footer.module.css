@@ -7,6 +7,7 @@
 
 .topfoot{
     border-bottom: 1px solid blue;
+    margin-top: 20px;
 }
 .topfoot h4{
     font-weight: 600;
@@ -17,7 +18,7 @@
     color: #ffffff;
     position: absolute;
     left: 590px;
-    top: 24px;
+    top: 20px;
     letter-spacing: 1px;
 }
 
@@ -77,12 +78,13 @@
     padding: 40px 50px 20px 50px;
     display: flex;
     justify-content: space-between;
+    gap:200px;
 }
 .info{
     display: flex;
     gap: 30px;
-    margin-right: 240px;
-    width: 50%;
+    /* margin-right: 20px; */
+    width: 90%;
 }
 .first ul {
     display:block;
@@ -185,6 +187,9 @@ text-align: justify;
 }
 
 @media screen and (max-width: 937px){
+    body{
+        overflow-x: hidden;
+    }
     .topfoot h4{
         
         position: relative;
@@ -196,5 +201,71 @@ text-align: justify;
         position: relative;
         left: 47%;
         top: 27%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .boxoverall {
+       
+        margin-right: 180px;
+        margin-top: -136px;
+        margin-bottom: 40px;
+    
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .topfoot h4{
+        
+        position: relative;
+        left: -12px;
+        top: 13px;
+        
+    }
+    .got{
+        position: relative;
+        left: 47%;
+        top: 134px;
+    }
+    .teaminfo{
+        display: grid;
+        /* grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto; */
+     
+        padding: 40px 30px 20px 30px;
+     
+        gap:10px;
+      }
+      .info{
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      .box1{
+        
+        width: 100px;
+      height: 100px;
+    
+    }
+    .box2{
+        
+        width: 100px;
+        height: 100px;
+    }
+    .box3{
+        
+        width: 200px;
+        height: 100px;
+    }
+
+
+       
+    
+    
+}
+@media screen and (max-width: 900px){
+    .got{
+        position: relative;
+        left: 47%;
+        top: 71px;
     }
 }

@@ -15,7 +15,7 @@ const Simple = () => {
                     <p>Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
                     <button className={classes.bget}>Get Started</button>
                     <div className={classes.end}>
-                        <span class="line">What’s Included</span>
+                        <p className={classes.lint}>What’s Included</p>
                         <img src={Plus}  className={classes.lines} alt="plus"/>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const Simple = () => {
                     <p>Set aside the leftover change from everyday purchases by turning on automatic Round-Ups.</p>
                     <button className={classes.bget}>Get Started</button>
                     <div className={classes.end}>
-                        <h4 className={classes.line}>What’s Included</h4>
+                        <p className={classes.lint}>What’s Included</p>
                         <img src={Plus}  className={classes.lines} alt="plus"/>
                     </div>
                 </div>

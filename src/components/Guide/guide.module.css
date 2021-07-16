@@ -105,3 +105,10 @@ margin-bottom: 20px;
 margin-top: 20px;
 color: #3D3D46
 }
+@media screen and (max-width: 850px){
+    .guidecontainer{
+        display: flex;
+        flex-direction: column;
+      
+    }
+}

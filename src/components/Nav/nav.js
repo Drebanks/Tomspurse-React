@@ -1,5 +1,6 @@
 import classes from "./nav.module.css";
 import { Link } from "react-router-dom";
+import Toggle from "../../assets/toggle.svg";
 
 const Navigation = () => {
   return (
@@ -15,7 +16,18 @@ const Navigation = () => {
           <Link to="/invest">Invest </Link>
         </li>
       </ul>
-    </nav>
+      <img src={Toggle} alt="tog" />
+      <div className={classes.tog}>
+        <ul className={classes.top}>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="#79">ABOUT US</a></li>
+          <li><a href="./login.html">Login</a></li>
+          <li><a href="#78">Dashboard</a></li>
+          <li><a href="./signup.html" id="register">Register</a></li>
+        </ul>
+    </div>
+  </nav>
+    
   );
 };
 

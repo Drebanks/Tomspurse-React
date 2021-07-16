@@ -20,3 +20,14 @@
     background-color: var(--light-blue);
     color: var(--white);
 }
+.togg{
+    display: flex;
+    gap: 3rem;
+}
+
+
+@media screen and (max-width: 900px){
+    .togg{
+        display: none;
+    }
+}

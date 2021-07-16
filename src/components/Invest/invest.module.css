@@ -1,11 +1,10 @@
 .investcontainer{
     display: flex;
      justify-content: center;
-}
-
-.invimg{
 
 }
+
+
 .earn{
     width: 500px;
 }
@@ -15,7 +14,7 @@ margin-top: 100px;
 color: #022B69;
 font-weight: 600;
 font-size: 36px;
-line-height: 44px
+line-height: 44px;
 }
 .earn p{
     margin-top: 50px;
@@ -37,4 +36,26 @@ color: #022B69;
 
 .badges > img:nth-of-type(2){
     margin-top: 12px;
+}
+@media screen and (max-width: 900px){
+    .badges{
+          
+        margin-left: 50px;
+        gap: 10px;
+        
+    }
+   
+}
+
+@media screen and (max-width: 850px){
+    .investcontainer{
+        display: flex;
+        align-items: center;
+         flex-direction: column;
+      
+    
+    }
+    .earn{
+       margin-top: -50px;
+    }
 }

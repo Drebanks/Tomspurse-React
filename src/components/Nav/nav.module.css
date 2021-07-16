@@ -15,3 +15,32 @@
   gap: 3rem;
   align-items: center;
 }
+
+.nav > img{
+  display: none;
+}
+
+.tog ul {
+  padding: 40px;
+  list-style-type: none;
+  background-color: #ffffff;
+  color: #022b69;
+  width: 50%;
+  text-align: left;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+
+.tog li {
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .nav ul {
+    display: none;
+  }
+  nav>img {
+    display: block;
+  }
+}

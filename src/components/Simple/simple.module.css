@@ -64,23 +64,24 @@ color: #022B69;
 }
 
 .end{
-
+display: flex;
   border-top: 1px solid black;
   margin-bottom: 10px;
 }
-.lines{
-  margin-left: 160px;
+
+.lint{
+  color: #3D3D46;
+  margin-right: 197px;
+  margin-left: 7px;
 }
-.l{
-  /* margin-top: 80px;
-  font-weight: 500;
-font-size: 18px;
-line-height: 22px;
 
-
-text-align: center;
-
-color: #3D3D46; */
+@media screen and (max-width: 775px){
+  .simplebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
 
 

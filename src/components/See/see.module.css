@@ -25,7 +25,7 @@ color: #022B69;
 .boxcontainer{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
 }
 
 .boximg{
@@ -112,4 +112,12 @@ height: 315.48px;
     margin-top: 37px;
     width: 72%;
     margin-left: 36px;
+}
+@media screen and (max-width: 850px){
+    .boximg2{
+        display: none;
+   }
+    .boximg3{
+        display: none;
+   }
 }
