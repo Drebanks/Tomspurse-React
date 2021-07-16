@@ -18,14 +18,14 @@ const Zero = () => {
                     <h3>Financial Stability</h3>
                     <p>Our Payment gateway is secured with military grade encryption </p>
                 </div>
-                <div className={classes.swift}>
+                <div className={classes.fin}>
                     <div className={classes.swfimg}>
                         <img src={Swift} alt="swf" />
                     </div>
                     <h3>Swift Payment</h3>
                     <p>Our Payment gateway is secured with military grade encryption </p>
                 </div>
-                <div className={classes.easy}>
+                <div className={classes.fin}>
                     <div className={classes.easyimg}>
                         <img src={Easy} alt="ease" />
                     </div>

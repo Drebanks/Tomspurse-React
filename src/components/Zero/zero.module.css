@@ -48,11 +48,18 @@ text-align: center;
 .finimg{
     filter: brightness(0);
 }
+.swiftimg{
+    filter: brightness(0);
+}
 .fin p{
     font-size: 20px;
     text-align: justify;
     margin-top: 20px;
 
+}
+
+.fin:hover img{
+    filter: brightness(0) invert(1)
 }
 .fin:hover{
     background: linear-gradient(157.9deg, #022b69 37.56%, #0066f5 106.92%);
