@@ -54,8 +54,20 @@ text-align: center;
     margin-top: 20px;
 
 }
-.boxes:hover{
+.fin:hover{
     background: linear-gradient(157.9deg, #022b69 37.56%, #0066f5 106.92%);
+}
+.swift:hover{
+    background: linear-gradient(157.9deg, #022b69 37.56%, #0066f5 106.92%);
+}
+.easy:hover{
+    background: linear-gradient(157.9deg, #022b69 37.56%, #0066f5 106.92%);
+}
+.swift:hover{
+    filter:brightness(1) invert(0);
+}
+.swift:hover.swift:hover.select{
+    color: white;
 }
 .finimg:hover {
     filter: brightness(0) invert(1);

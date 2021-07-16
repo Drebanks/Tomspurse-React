@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className={classes.header}>
             <div className={classes.header_container}>
-                <img src={Logo} alt="Logo" />
+                <Link to="./"><img src={Logo} alt="Logo" /></Link>
                 <Navigation />
                 <div className={classes.togg}>
                     <div className={classes.lin}>

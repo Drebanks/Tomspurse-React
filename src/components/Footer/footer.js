@@ -12,7 +12,9 @@ const Footer = () => {
         <div className={classes.footercontainer}>
             <div className={classes.topfoot}>
                 <h4>Total control, total freedom. <br />Be invested.</h4>
-                <button className={classes.got}>Get started</button>
+                <Link to="./signup">
+                    <button className={classes.got}>Get started</button>
+                </Link>
                 <div className={classes.boxoverall}>
                     <div className={classes.boxcont}>
                         <div className={classes.box1}></div>

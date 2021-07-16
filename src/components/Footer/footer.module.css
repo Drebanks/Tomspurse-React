@@ -186,14 +186,14 @@ text-align: justify;
     margin-top: 10px;
 }
 
-@media screen and (max-width: 937px){
+@media screen and (max-width: 950px){
     body{
         overflow-x: hidden;
     }
     .topfoot h4{
         
         position: relative;
-        left: 283px;
+        left: 590px;
         top: 32px;
         
     }
@@ -201,6 +201,8 @@ text-align: justify;
         position: relative;
         left: 47%;
         top: 27%;
+        /* width: 100px; */
+        
     }
 }
 
