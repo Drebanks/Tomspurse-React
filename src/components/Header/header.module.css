@@ -1,18 +1,18 @@
 .header {
-    width: 100%;
+    /* width: 100%; */
     /* position: fixed; */
-    z-index: 100;
+    /* z-index: 100; */
     top: 0;
     left: 0;
-    background-color: var(--white);
+    /* background-color: var(--white); */
 }
 
 .header_container {
-    width: 90%;
+    /* width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
-    gap: 3rem
+    gap: 3rem */
 }
 
 

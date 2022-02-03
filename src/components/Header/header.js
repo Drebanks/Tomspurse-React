@@ -9,9 +9,9 @@ const Header = () => {
     return (
         <header className={classes.header}>
             <div className={classes.header_container}>
-                <Link to="./"><img src={Logo} alt="Logo" /></Link>
+                {/* <Link to="./"><img src={Logo} alt="Logo" /></Link> */}
                 <Navigation />
-                <div className={classes.togg}>
+                {/* <div className={classes.togg}>
                     <div className={classes.lin}>
                     <Link to="/login">Login</Link>
                     </div>
@@ -21,7 +21,7 @@ const Header = () => {
                     Get Started
                     </Button>
                     </div>
-                </div>
+                </div> */}
             </div>
         </header>
     );

@@ -1,0 +1,225 @@
+/* body {
+  width: 100vw;
+  height: 100vh;
+  font-family: gotham_proregular;
+  background: #f4f8fc;
+} */
+.overall {
+  display: flex;
+  flex-direction: row;
+  /* height: 100%; */
+  background: #f4f8fc;
+  width: 100vw;
+  height: 100vh;
+
+}
+.left {
+  flex-grow: 1;
+  margin: 100px;
+}
+.left a{
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 48px;
+  color: #022b69;
+  padding-top: 20px;
+  font-family: "gotham_probold" ;
+}
+h2 {
+  color: #b2bed0;
+  font-size: 48px;
+  padding-top: 20px;
+  line-height: 46px;
+  font-family: "gotham_probold";
+}
+.right {
+  flex-grow: 1;
+}
+.box {
+  margin: 100px;
+  width: 553px;
+  height: 600px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px 20px 20px 0px;
+}
+form {
+    margin: 20px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h3 {
+  font-size: 30px;
+  line-height: 29px;
+  padding: 44px 104px 22px 104px;
+  color: #022b69;
+  font-family: "gotham_probold";
+}
+input {
+    width: 94.04%;
+    padding: 18.5px;
+    background: #F4F8FC;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: gotham_proregular;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 16px;
+}
+li {
+  float: left;
+}
+a{
+  color: #0066F5;
+  outline: none;
+  cursor: default;
+}
+a:link, a:visited, a:hover{
+  color: #0066F5;
+}
+a:active{
+  color: red;
+}
+.newuser {
+  margin-left: 125px;
+}
+label {
+  color: #b2bed0;
+}
+.label1{
+    padding-bottom: 60px;
+}
+.tro{
+  display: flex;
+  justify-content:center;
+}
+.button{
+    width: 228px;
+    height: 57px;
+    background: #022B69;
+    border-radius: 10px 10px 10px 0px;
+    font-family: "gotham_probold";
+    color: #FFFFFF;
+    font-size: 24px;
+    /* margin: 50px auto; */
+    border: none;
+    outline: none;
+}
+
+/* Media Querries */
+/* for ipads */
+@media screen and (max-width: 1110px) {
+  .right{
+    margin: 100px auto 100px 20px;
+  }
+  .left{
+    margin: 100px 0 100px 40px;
+    width: 30%;
+  }
+  .box{
+    margin: 0 50px;
+    width: 75%;
+  }
+  img{
+    width: 65%;
+  }
+  h1, h2{
+    font-size: 4.5vw;
+    line-height: 5vw;
+  }
+  h3{
+    font-size: 3vw;
+    padding: 20px 50px 20px 50px;
+  }
+  .label1{
+    padding-bottom: 70px;
+  }
+  ul{
+    padding-top: 10px;
+    font-size: 2vw;
+    display: flex;
+  }
+  .button{
+    margin: 60px auto;
+  }
+  .new-user{
+    margin-left: 60px;
+  }
+  input{
+    font-size: 1.8vw;
+  }
+  form{
+    margin: 20px 30px 0px 30px;
+  }
+  
+}
+@media screen and (max-width: 560px) {
+  .overall{
+    display: block;
+  }
+  img{
+    display: none;
+  }
+  .left{
+    margin: 100px 0 50px 0;
+    width: 100%;
+  }
+  .right{
+    margin: 0;
+  }
+  h1{
+    text-align: center;
+    margin: auto;
+    font-size: 36px;
+  }
+  
+  h2{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+  }
+  h3{
+    font-family: "gotham_proregular";
+    font-size: 18.3363px;
+    padding: 20px 40px 0px 40px;
+  }
+  .box{
+    margin: auto;
+    width: 90%;
+    height: 450px;
+  }
+  input{
+    width: 100%;
+    font-size: 16px;
+  }
+  .label1{
+    padding-bottom: 35px;
+    font-size: 16px;
+  }
+  .label2{
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+  ul{
+    padding-top: 0px;
+    font-size: 12px;
+    display: flex;
+  }
+.new-user {
+  margin-left: auto;
+}
+.button{
+  width: 139.36px;
+  height: 40.95px;
+  font-size: 14.6691px;
+  margin: 10px auto;
+}
+}

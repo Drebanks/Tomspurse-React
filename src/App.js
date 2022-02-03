@@ -27,10 +27,9 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} exact />
-       
-        <Route path="/aboutus" component={AboutUs}/>
+        <Route path="/about_us" component={AboutUs}/>
         <Route path="*">
-          <Redirect to="/" />
+        <Redirect to="/" />
         </Route>
       </Switch>
       {/* <Footer /> */}

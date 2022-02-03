@@ -1,23 +1,38 @@
 .signupcontainer {
   background-color: lightblue;
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center;
-  /* padding: 200px; */
+  /* align-items: center; */
+  padding:70px;
   gap: 70px;
 }
 .signuptext{
-  margin-top: -250 px;
+  /* flex-grow: 1; */
+  /* margin: 100px; */
 }
-.signuptext h1{
+.clue{
   font-weight: bold;
 font-size: 48px;
 line-height: 46px;
-
-
-
 color: #022B69;
+}
+.clos{
+  font-weight: bold;
+font-size: 44px;
+line-height: 42px;
+color: #B2BED0;
+}
+.formcontainer {
+  width: 100%;
+  max-width: 650px;
+height: 670px;
+  padding: 5px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 20px 20px 20px 0px;
 }
 .tet{
   font-weight: normal;
@@ -26,48 +41,27 @@ color: #022B69;
   padding-bottom: 30px;
   color: #b2bed0;
   margin-bottom: 10px;
-
-
 }
-.full{
+.last{
   display: flex;
-  /* gap: 2px; */
+  gap: 35px;
 }
-.signuptext h2{
+
+.hut{
   font-weight: bold;
-font-size: 44px;
-line-height: 42px;
-
-color: #B2BED0;
-}
-
-.formcontainer {
-  width: 450px;
-  height: 480px;
-  padding: 40px 30px 30px 30px;
-
-  background: #ffffff;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06),
-    0px 0px 1px rgba(0, 0, 0, 0.04);
-  border-radius: 20px 20px 20px 0px;
-}
-.formcontent h3{
-  font-weight: bold;
-font-size: 25px;
+font-size: 30px;
 line-height: 29px;
-/* text-align: center; */
 color: #022B69;
-margin-bottom: 25px;
-margin-left: 17px;
-
+text-align:center;
 }
 .bet{
   margin-bottom: 20px;
   background: #f4f8fc;
   border-radius: 5px;
-  width: 90%;
-  padding: 5px;
+  /* width: 100%; */
+  padding: 15px;
   margin-top: 8px;
+  gap: 50px;
   outline: none;
   border: none;
   color: #b2bed0;
@@ -77,18 +71,24 @@ margin-left: 17px;
   border-radius: 5px;
   outline: none;
   border: none;
-  width: 90%;
-  padding: 5px;
+  width: 100%;
+  padding: 15px;
   margin-bottom: 10px;
   margin-top: 8px;
 }
 
 .old{
-  margin-left: 220px;
   color:mediumblue;
+  /* position: relative;
+  left: 200px;
+  bottom: 100px; */
 }
-
-
+.try{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+ 
+}
 
 .set{
   background: #022B69;
@@ -97,30 +97,76 @@ border-radius: 10px 10px 10px 0px;
   padding: 10px 20px 10px 20px;
   outline: none;
   width: 150px;
-  align-self: center;
-  margin-left:120px;
-  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+
 }
 
 /* media querries */
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 880px) {
   .signupcontainer{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    justify-content: center;
+    align-items:center;
+    /* padding: 80px; */
   }
-  .signuptext h2{
+  .signuptext{
+    /* display: block; */
+    /* width: 100%; */
+  }
+  .clos{
     font-weight: bold;
-  font-size: 30px;
+  font-size:26px;
   line-height: 22px;
-  
+  margin-top:-20px;
+  text-align:left;
+  }
+  .clue{
+    font-size: 26px;
+    text-align:left;
   }
   .formcontainer {
     width: 400px;
-    height: 450px;
+    height: 580px;
     padding: 20px 10px 10px 10px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
+  }
+  .hut{
+    font-size: 20px;
+  }
+  .set{
+    width: 100px;
+    font-size: 12px;
   }
 
+}
+@media screen and (max-width: 500px){
+
+  .signupcontainer{
+    padding: 80px;
+    overflow-x: hidden;
+  }
+  .signuptext{
+    display: block;
+  }
+  .clue, .clos{
+    font-size:26px;
+  }
+  .hut{
+    font-size: 18px;
+  }
+  .tet{
+    font-size: 12px;
+
+  }
+ 
+   .formcontainer {
+    width: 330px;
+    height: 580px;
+    padding: 10px;
+    /* margin-top: -50px; */
+  }
 }
